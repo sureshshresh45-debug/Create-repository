@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DJ VIJAY KERADIH - Home</title>
+  <style>
+    body{font-family: Arial;background:#111;color:#fff;margin:0;padding:0;text-align:center;}
+    .header{background:#222;padding:20px;font-size:28px;font-weight:bold;}
+    a{color:#00eaff;text-decoration:none;padding:10px;font-size:20px;display:block;}
+    .box{padding:20px;}
+  </style>
+</head>
+<body>
+  <div class="header">DJ VIJAY KERADIH</div>
+
+  <a href="upload.html">🎵 Song Upload</a>
+  <a href="category.html">📂 Category System</a>
+  <a href="gallery.html">🖼 Photo & Video Gallery</a>
+  <a href="download.html">⬇ Download System</a>
+  <a href="about.html">ℹ About</a>
+  <a href="contact.html">☎ Contact</a>
+  <a href="admin.html">⚙ Admin Panel</a>
+
+  <div class="box">
+    <h2>Welcome to DJ VIJAY KERADIH Website</h2>
+    <p>Yahan aap apne songs upload, download aur manage kar sakte ho.</p>
+  </div>
+</body>
+</html>
