@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Song Upload</title>
+  <style>
+    body{background:#111;color:#fff;font-family:Arial;text-align:center;padding:40px;}
+    input,button{padding:10px;font-size:18px;margin:10px;}
+  </style>
+</head>
+<body>
+  <h1>Upload Your Song</h1>
+  <input type="file" accept="audio/*">
+  <br>
+  <button>Upload Song</button>
+  <br><br>
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
