@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DJ VIJAY KERADIH - Home</title>
+  <style>
+    body{font-family: Arial;background:#111;color:#fff;margin:0;padding:0;text-align:center;}
+    .header{background:#222;padding:20px;font-size:28px;font-weight:bold;}
+    a{color:#00eaff;text-decoration:none;padding:10px;font-size:20px;display:block;}
+    .box{padding:20px;}
+  </style>
+</head>
+<body>
+  <div class="header">DJ VIJAY KERADIH</div>
+
+  <a href="upload.html">🎵 Song Upload</a>
+  <a href="category.html">📂 Category System</a>
+  <a href="gallery.html">🖼 Photo & Video Gallery</a>
+  <a href="download.html">⬇ Download System</a>
+  <a href="about.html">ℹ About</a>
+  <a href="contact.html">☎ Contact</a>
+  <a href="admin.html">⚙ Admin Panel</a>
+
+  <div class="box">
+    <h2>Welcome to DJ VIJAY KERADIH Website</h2>
+    <p>Yahan aap apne songs upload, download aur manage kar sakte ho.</p>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <style>
+    body{background:#111;color:#fff;text-align:center;font-family:Arial;}
+    .box{background:#222;border-radius:10px;padding:20px;margin:20px;}
+  </style>
+</head>
+<body>
+  <h1>Admin Panel</h1>
+
+  <div class="box">➕ Add Song</div>
+  <div class="box">🗂 Manage Category</div>
+  <div class="box">🖼 Manage Gallery</div>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <style>
+    body{background:#111;color:#fff;text-align:center;font-family:Arial;}
+    input,textarea{width:80%;padding:10px;margin:10px;font-size:18px;}
+  </style>
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <input type="text" placeholder="Your Name">
+  <input type="text" placeholder="Mobile Number">
+  <textarea placeholder="Your Message"></textarea>
+
+  <button>Send</button>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <style>
+    body{background:#111;color:#fff;text-align:center;font-family:Arial;padding:30px;}
+  </style>
+</head>
+<body>
+  <h1>About DJ VIJAY KERADIH</h1>
+  <p>Main DJ Vijay Keradih hoon, YouTube par songs upload karta hoon aur remix banata hoon.</p>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download Songs</title>
+  <style>
+    body{background:#111;color:#fff;text-align:center;font-family:Arial;}
+    a.song{display:block;background:#222;margin:10px;padding:15px;border-radius:10px;color:#00eaff;}
+  </style>
+</head>
+<body>
+  <h1>Download Songs</h1>
+
+  <a class="song" href="song1.mp3" download>🎵 Song 1</a>
+  <a class="song" href="song2.mp3" download>🎵 Song 2</a>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <style>
+    body{background:#111;color:#fff;text-align:center;font-family:Arial;}
+    img,video{width:90%;margin:10px;border-radius:12px;}
+  </style>
+</head>
+<body>
+  <h1>Photo & Video Gallery</h1>
+
+  <img src="photo1.jpg">
+  <img src="photo2.jpg">
+  <video controls src="video1.mp4"></video>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Categories</title>
+  <style>
+    body{background:#111;color:#fff;font-family:Arial;text-align:center;padding:40px;}
+    .cat{padding:20px;background:#222;margin:10px;border-radius:10px;}
+  </style>
+</head>
+<body>
+  <h1>Song Categories</h1>
+
+  <div class="cat">Bhojpuri DJ</div>
+  <div class="cat">Sad Song</div>
+  <div class="cat">Bollywood Remix</div>
+  <div class="cat">Festival Special</div>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Song Upload</title>
+  <style>
+    body{background:#111;color:#fff;font-family:Arial;text-align:center;padding:40px;}
+    input,button{padding:10px;font-size:18px;margin:10px;}
+  </style>
+</head>
+<body>
+  <h1>Upload Your Song</h1>
+  <input type="file" accept="audio/*">
+  <br>
+  <button>Upload Song</button>
+  <br><br>
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>
